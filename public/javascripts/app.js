@@ -7,4 +7,15 @@ var primus = Primus.connect(url, {
     }
 });
 
-alert("amai!");
+//klikken om button -> values van form naar server sturen
+var submitBtn = document.querySelector(".submitBtn");
+if(submitBtn){
+    submitBtn.addEventListener("click", function(e){
+        primus.write({test: "Test"});
+        e.preventDefault();
+    });
+}
+
+primus.on("data", function(data){
+    alert("test!");
+});
