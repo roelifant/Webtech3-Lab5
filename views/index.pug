@@ -1,5 +1,15 @@
 extends layout
 
 block content
-  h1 Question of the day!
-  div.poll
+  section
+    h2 There are no questions yet...
+    button(class="ask" type="button") Ask one
+    div.poll
+      h1 ...
+      button(class="answer answer1" type="button")
+      div.animate1
+      p 0
+      br
+      button(class="answer answer2" type="button")
+      div.animate2
+      p 0

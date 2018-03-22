@@ -1,12 +1,13 @@
 extends layout
 
 block content
-  h1 Create a poll!
-  form#form(action='')
-    input.question(type="text")
-    br
-    input.answer1(type="text")
-    br
-    input.answer2(type="text")
-    br
-    button.submitBtn(type="button") Submit
+  section
+    h1 Create a poll!
+    form#form(action='')
+      input.question(type="text", placeholder="question")
+      br
+      input.answer1(type="text", placeholder="first answer")
+      br
+      input.answer2(type="text", placeholder="second answer")
+      br
+      button.submitBtn(type="button") Submit

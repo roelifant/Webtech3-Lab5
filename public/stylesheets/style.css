@@ -1,9 +1,85 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  background-color: blue;
+  background-color:#fffaca;
 }
-
+section{
+  margin: auto;
+  width: 75%;
+  max-width: 800px;
+}
 h1{
+  color:#d26d1a;
+  text-align: center;
+  font-size: 2.5em;
+}
+h2{
+  color:#f2ca4e;
+  text-align: center;
+}
+input{
+  margin: 2px;
+  width: 100%;
+  margin-bottom: 6px;
+  border-style: none;
+  padding: 5px;
+  box-sizing:border-box
+}
+button{
+  margin: 2px;
+  background-color: #ffb445;
+  border: none;
   color: white;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  display: block;
+}
+.answer{
+  width: 30%;
+  height: 40px;
+  margin: 0;
+  margin-bottom: -80px;
+}
+.ask{
+  margin: auto;
+  width: 30%;
+}
+.submitBtn{
+  margin: auto 0;
+  margin-top: 2px;
+  width: 100%
+}
+.animate1{
+  background-color: #FFD493;
+  width: 0%;
+  height: 40px;
+  position: relative;
+  top: 40px;
+  left: 30%;
+}
+.animate2{
+  background-color: #FFD493;
+  width: 0%;
+  height: 40px;
+  position: relative;
+  top: 40px;
+  left: 30%;
+}
+.poll{
+  display: none;
+}
+p{
+  color: #FFD493;
+  position: relative;
+  top: -13px;
+  left: 32%;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+button .answer1{
+  margin-top: 3em;
+}
+a{
+  background-color: #d26d1a;
 }
